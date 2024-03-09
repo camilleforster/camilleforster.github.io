@@ -1,17 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
-<title>Page Title</title>
+<head>
+	<script src="https://kit.fontawesome.com/f58b5b8f51.js" crossorigin="anonymous"></script>
+	<title>Page Title</title>
+</head>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
+<link rel="stylesheet" href="styles.css">
 <style>
 </style>
 <script src=""></script>
-
-	<!--- Code above this line will not be displayed on the browser --> 
-
 	<body>
-		<p> Hello world! My name is Camille </p>
+		<div class="container">
+			<nav class="navbar">
+				<ul>
+					<li><a href="/"><img src="./assets/logo.png"/></a></li>
+					<li><a href="#" onclick="loadSection('development')">Development</a></li>
+					<li><a href="#" onclick="loadSection('ui-ux')">UI/UX</a></li>
+					<li><a href="#" onclick="loadSection('graphic-design')">Graphic Design</a></li>
+					<li class="social-media-links">
+						<a href="https://www.linkedin.com/in/camilleforster"><i class="fab fa-linkedin"></i></a>
+						<a href="https://github.com/camilleforster"><i class="fab fa-github"></i></a>
+						<a href="mailto:camille.forster@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+					</li>
+				</ul>
+			</nav>
+			<main id="content-area" class="content-area">
+				<div>
+					<h1>Hi, I'm Camille</h1>
+					<p>I'm a Frontend Developer that ties in my love for art and user experience into my projects.</p>
+				</div>
+			</main>
+			<script src="main.js"></script>
+		</div>
 	</body>
 
 </html>
